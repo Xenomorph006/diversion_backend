@@ -1,0 +1,68 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# ----------------------------
+# Environment Variables
+# ----------------------------
+.env
+
+# ----------------------------
+# Firebase
+# ----------------------------
+serviceAccountKey.json
+firebase_config.json
+
+# ----------------------------
+# ONNX / Model Files
+# ----------------------------
+*.onnx
+*.onnx.data
+*.pt
+*.pth
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# IDE / Editors
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# Testing / Coverage
+# ----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ----------------------------
+# Temporary Files
+# ----------------------------
+*.tmp
+*.swp
+
+# ----------------------------
+# Uvicorn / Runtime
+# ----------------------------
+*.pid
+cogniride-61f60-firebase-adminsdk-fbsvc-e9225ce5d3.json
+main.cpython-310.__pycache__
